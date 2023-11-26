@@ -13,8 +13,8 @@ $ cd spring-boot-hello-world
 $ mvn spring-boot:run
 
 # test
-curl localhost:8080/message..
-**
+curl localhost:8080/message
+
 ```
 
 
