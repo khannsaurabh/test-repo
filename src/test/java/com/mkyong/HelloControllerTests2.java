@@ -18,7 +18,7 @@ public class HelloControllerTests2 {
     @Test
     public void hello_ok() throws Exception {
         ResponseEntity<String> response = template.getForEntity("/message", String.class);
-        assertThat(response.getBody()).isEqualTo("Hello World, Spring Boot!");
+        assertThat(response.getBody()).isEqualTo("Hello World, Spring Boot! I have deployed azure successfully");
     }
 
 }
