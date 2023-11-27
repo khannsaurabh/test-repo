@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/message")
     String hello() {
-        return "Hello World, Spring Boot!";
+        return "Hello World, Spring Boot! I have deployed azure successfully";
     }
 
 }
